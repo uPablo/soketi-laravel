@@ -1,6 +1,9 @@
+![image](https://github.com/user-attachments/assets/0b1a733d-ab02-4474-ab6c-ec893441e6fb)
+
+
 # Sistema de Chat em Tempo Real
 
-Este projeto é um sistema de chat em tempo real entre usuários e estabelecimentos para resolver problemas com pedidos.
+Este projeto é um sistema de chat em tempo real entre usuários e lojas para resolver possívels problemas com pedidos.
 
 ## Requisitos
 
