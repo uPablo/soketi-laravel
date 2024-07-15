@@ -15,8 +15,8 @@ Este projeto é um sistema de chat em tempo real entre usuários e estabelecimen
 ### Passo 1: Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/uPablo/soketi-laravel.git
+cd soketi-laravel
 ```
 
 ### Passo 2: Instalar Dependências do PHP
@@ -64,7 +64,7 @@ Para efetuar os testes, é necessário estar logado e adicionar o token de auten
 
 1. **Obter Token**:
 
-    - Faça uma requisição POST para `http://localhost:8000/api/login` com as seguintes credenciais e obtenha o token de autenticação:
+    - Faça uma requisição POST para `http://localhost/api/login` com as seguintes credenciais e obtenha o token de autenticação:
         ```json
         {
             "email": "user@example.com",
@@ -82,13 +82,13 @@ Para efetuar os testes, é necessário estar logado e adicionar o token de auten
 3. **Listar Conversas**:
 
     - **Método**: GET
-    - **URL**: `http://localhost:8000/api/conversations/{orderId}`
+    - **URL**: `http://localhost/api/conversations/{orderId}`
     - **Headers**: Authorization: Bearer {YourToken}
 
 4. **Enviar Mensagem**:
 
     - **Método**: POST
-    - **URL**: `http://localhost:8000/api/conversations/{conversationId}/messages`
+    - **URL**: `http://localhost/api/conversations/{conversationId}/messages`
     - **Headers**: Content-Type: application/json, Authorization: Bearer {YourToken}
     - **Body** (JSON):
         ```json
